@@ -1,0 +1,37 @@
+h1, #upperbox {
+    text-align:center;
+}
+h1 {
+    padding-top: 10px;
+}
+#upperbox {
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#lowerbox {
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+}
+#texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+li {
+    margin-right: 20px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+body {
+cursor: url('cursor.png') 25 25, auto;
+}
+a:hover {
+cursor: url('hover-cursor.png') 25 25, pointer;
+}
